@@ -28,7 +28,8 @@ Symbols are drawn with these probabilities:
   - Every diamond in the combination doubles the final prize.
 
 # How to run:
-Copy code to R or RStudio:
+1. Source "slot_machine" to R or RStudio.
+2. Commands:
 
        play()              # play once, prints symbols + prize
        play_many(10)       # simulate 10 plays at once, returns a data.frame
