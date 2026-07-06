@@ -5,11 +5,9 @@ A simple slot-machine simulator written in R, based on Project 3 of
 
 # What it does:
 The machine has three windows, each of which lands on one of 7 symbols:
-
     DD  7  BBB  BB  B  C  0
 
 Symbols are drawn with these probabilities:
-
     DD   3%
     7    3%
     BBB  6%
