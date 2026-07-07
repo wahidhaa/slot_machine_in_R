@@ -3,7 +3,7 @@
 A simple slot-machine simulator written in R, based on Project 3 of
 [Hands-On Programming with R](https://rstudio-education.github.io/hopr/project-3-slot-machine.html) by Garrett Grolemund.
 
-# What it does:
+## What it does:
 The machine has three windows, each of which lands on one of 7 symbols:
 
     DD  7  BBB  BB  B  C  0
@@ -18,7 +18,7 @@ Symbols are drawn with these probabilities:
     C    1%
     0    52%
 
-# Scoring rules:
+## Scoring rules:
   - Three matching diamonds (DD DD DD)        -> $100 (special case)
   - Three of a kind (non-diamond)             -> looked up in a payout table
   - Any combination of bars (B/BB/BBB), all three positions -> $5
@@ -27,9 +27,10 @@ Symbols are drawn with these probabilities:
     when checking "three of a kind", "all bars", or "cherries", AND
   - Every diamond in the combination doubles the final prize.
 
-# How to run:
+## How to run:
 1. Source "slot_machine" to R or RStudio.
-2. Commands:
+2. Run the code.
+3. Commands:
 
        play()              # play once, prints symbols + prize
        play_many(10)       # simulate 10 plays at once, returns a data.frame
